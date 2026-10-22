@@ -64,6 +64,7 @@ h1 {
     color: var(--clr-ppp-offwhite);
     font-family: Xirod, sans-serif;
     font-size: calc(3cqi + 3rem);
+    font-size: 6vw;
     letter-spacing: 0.6rem;
 
 
