@@ -135,8 +135,7 @@ div, section {
 
 .container {
     display: block;
-    border: 3px solid black;
-    width: 100%;
+
     min-height: 100vh;
     height: 90%;
     display: inline-flex;
@@ -154,8 +153,6 @@ div, section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
 }
 
 .bottomContent {
@@ -179,9 +176,6 @@ div, section {
     container-name: content;
     justify-content: center;
     align-items: center;
-    min-width: 350px;
-
-    /* min-height: clamp(10rem, calc(40cqi + 1rem), 30rem); */
 }
 
 .neonText {
