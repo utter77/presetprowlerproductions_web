@@ -98,6 +98,23 @@ h3 {
 
 }
 
+.backgroundImage {
+    opacity: 0.2;
+    font-family: Xirod, sans-serif;
+    position: absolute;
+    font-size: 30vw;
+    width: 95%;
+    height: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: hidden;
+    color: #000;
+    text-shadow:
+      0 0 20px #fff,
+      0 0 20px #0fa;
+}
+
 a {
     color: var(--clr-ppp-offwhite);
     text-decoration: none;
