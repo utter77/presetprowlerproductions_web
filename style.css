@@ -100,14 +100,15 @@ h3 {
 }
 
 .backgroundImage {
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+
     opacity: 0.2;
     font-family: Xirod, sans-serif;
     position: absolute;
     font-size: 30vw;
-    width: 95%;
-    height: 95%;
-    background-position: center;
-    background-repeat: no-repeat;
     z-index: -1;
     overflow: hidden;
     color: #000;
@@ -137,12 +138,15 @@ div, section {
     border: 3px solid black;
     width: 100%;
     min-height: 100vh;
-    height: 80%;
+    height: 90%;
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
     
     text-align: center;
+
+    justify-content: center;
+
 }
 
 .mainContent {
@@ -150,6 +154,8 @@ div, section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+
 }
 
 .bottomContent {
@@ -161,6 +167,7 @@ div, section {
     color: var(--clr-ppp-offwhite);
     align-self: flex-end;
     margin-bottom: 1rem;
+
 }
 
 .mainSection {
@@ -170,10 +177,6 @@ div, section {
 
     container-type: inline-size;
     container-name: content;
-    /* background-image: url(img/bigwave.png); */
-    background-size: clamp(25rem, calc(40cqi + 1rem), 35rem);
-    background-position: center;
-    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
     min-width: 350px;
