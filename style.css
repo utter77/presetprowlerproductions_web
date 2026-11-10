@@ -204,6 +204,20 @@ div, section {
       0 0 0.3rem #fff,
       0 0 0.6rem #0fa;
 }
+
+.neonTextPreProPro {
+  color: #fff;
+  text-shadow:
+      0 0 0.3rem #fff,
+      0 0 0.6rem #0fa;
+}
+
+.neonTextPPP {
+  color: #fff;
+  text-shadow:
+      0 0 0.6rem #fff,
+      0 0 1.2rem #0fa;
+}
 .neonTextSmall {
   color: #fff;
   text-shadow:
